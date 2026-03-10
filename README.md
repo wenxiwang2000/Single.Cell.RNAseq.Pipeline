@@ -63,12 +63,16 @@ Outputs are exported as:
 
 ---
 
-# 🧪 Core parameters
+## 🧪 Core parameters and Output
 
-Key parameters can be tuned depending on dataset characteristics.
+<table>
+<tr>
+<td width="50%">
+
+### 🧪 Core parameters
 
 | Parameter | Default |
-|--------|--------|
+|-----------|--------|
 | MIN_GENES | 400 |
 | MIN_COUNTS | 800 |
 | MAX_GENES | 3000 |
@@ -78,8 +82,19 @@ Key parameters can be tuned depending on dataset characteristics.
 | N_NEIGHBORS | 15 |
 | LEIDEN_RES | 0.66 |
 
-These parameters allow users to **refine clustering resolution and biological signal detection**.
+These parameters allow users to refine clustering resolution and biological signal detection.
 
+</td>
+
+<td width="50%">
+
+### 📊 Example Output
+
+<img src="https://github.com/user-attachments/assets/8b19a508-7d34-4ef0-9c67-39731a49257b" width="100%">
+
+</td>
+</tr>
+</table>
 ---
 
 # 🧩 Supported workflows
